@@ -1,5 +1,8 @@
 /* common shared styles */
-
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
 
 body {
@@ -26,6 +29,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+    padding-top: 40px;
 }
 
 .nav-title {
@@ -37,7 +42,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
 
 nav li {
@@ -50,4 +55,56 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* header related styles */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-tittle {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.btn-me{
+    margin-right: 15px;
+    margin-top: 10px;
 }
