@@ -323,3 +323,28 @@ textarea {
    max-width: 1400px;
    margin: 0px auto;
 }
+
+
+/* responsive styles */
+
+
+/* mobile devices */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skills-container{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 35px;
+    }
+    .skill{
+        text-align: center;
+        padding: 20px;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+}
